@@ -1,9 +1,7 @@
 (function(){
-<<<<<<< HEAD
+
 	Parse.initialize("LANM3VVclwoB6BBWuBbLT86MNjeDaEJyHImqVw0s","wf4f59AI9kekd8a63dBRqSNUt7mVtDK9a5Y1hR0w");
-=======
-	Parse.initialize("s4747jSandiQGpXlbizjGZMgXJAepvnGnbc7NCmu","PihDCqy36lpBPQc8rmiEH477nSD0tT1vrSSjBAm0");
->>>>>>> 7a0e6e243381655299933d87d582c68d45629d5b
+
 	var e={};
 	["loginView","evaluationView","updateSuccessView"].forEach(function(t){
 		templateCode=document.getElementById(t).text;e[t]=doT.template(templateCode)
